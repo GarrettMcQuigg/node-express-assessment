@@ -1,8 +1,9 @@
 const express = require('express');
-let axios = require('axios');
-var app = express();
+const axios = require('axios');
+const app = express();
 
 app.post('/', function(req, res, next) {
+  console.log(req.body);
   try {
     let results = req.body.developers.map(async d => {
       return await axios.get(`https://api.github.com/users/${d}`);

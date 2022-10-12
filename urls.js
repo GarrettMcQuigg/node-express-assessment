@@ -10,7 +10,7 @@ axios.get("http://rithmschool.com").then((response) => {
     if (err) {
       console.log("ERROR:", err);
     }
-    console.log("Wrote to:", "rithmschool.com");
+    // console.log("Wrote to:", "rithmschool.com");
   });
 });
 
@@ -24,7 +24,7 @@ axios.get("http://postgresql.com").then((response) => {
     if (err) {
       console.log("ERROR:", err);
     }
-    console.log("Wrote to:", "postgresql.com");
+    // console.log("Wrote to:", "postgresql.com");
   });
 });
 
@@ -38,7 +38,7 @@ axios.get("http://foozlemcblargh.com").then((response) => {
     if (err) {
       console.log("ERROR:", err);
     }
-    console.log("Wrote to:", 'foozlemcblargh.com');
+    // console.log("Wrote to:", 'foozlemcblargh.com');
   });
 });
 
@@ -52,6 +52,6 @@ axios.get("https://nodejs.org").then((response) => {
     if (err) {
       console.log("ERROR:", err);
     }
-    console.log("Wrote to:", 'nodejs.org');
+    // console.log("Wrote to:", 'nodejs.org');
   });
 });
